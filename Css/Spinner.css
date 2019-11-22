@@ -11,7 +11,13 @@ html {
   overflow: hidden;
   /* position: absolute; */
   text-align: center;
-  width: 100%; }
+  width: 100%; 
+    color: #00a4a2
+}
+
+a:visited {
+  color: #00a4a2
+}
 
 /* =========================================
 Stark Industries Logo
@@ -24,7 +30,7 @@ Stark Industries Logo
   z-index: 40; }
 
   a:visited {
-  color: #00dec0;
+  color: #00dec0
 }
 /* =========================================
 H1
@@ -40,7 +46,8 @@ h1 {
   font-weight: bold;
   position: absolute;
   text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 50px #000, 0 0 60px #000, 0 0 70px #000;
-  top: 50px; }
+  top: 50px
+ }
   h1:before {
     animation: before-glow 2s ease-out infinite alternate;
     border-left: 535px solid transparent;
@@ -50,7 +57,8 @@ h1 {
     position: absolute;
     right: -74px;
     top: -10px;
-    width: 0; }
+    width: 0
+   }
   h1:after {
     animation: after-glow 2s ease-out infinite alternate;
     border-left: 100px solid transparent;
@@ -61,7 +69,8 @@ h1 {
     right: -85px;
     top: 24px;
     transform: rotate(-47deg);
-    width: 0; }
+    width: 0
+   }
 /* =========================================
 H2
 ========================================= */
@@ -99,16 +108,12 @@ h2 {
     transform: rotate(-47deg);
     width: 0; }
 
-/* =========================================
-Log in form
-========================================= */
+/* Log in form */
 #fade-box {
   animation: input-entry 3s ease-in;
   z-index: 4; }
 
-/* =========================================
-BEGIN Close flight mode button
-========================================= */
+/* BEGIN Close flight mode button */
   .Close_Flight_Mode_Button{
   float: right;
   animation: input-entry 3s ease-in;
@@ -231,9 +236,7 @@ END Close flight mode button
   box-shadow: 0 1px 0 #000, inset 1px 0 1px #222;
   top: 1px; }
 
-/* =========================================
-Spinner
-========================================= */
+/* Spinner */
 #circle1 {
   animation: circle1 4s linear infinite, circle-entry 6s ease-in-out;
   /* background: #000; */
@@ -274,9 +277,7 @@ Spinner
     top: 0;
     left: 0; }
 
-/* =========================================
-Hexagon Mesh
-========================================= */
+/* Hexagon Mesh */
 .hexagons {
   animation: logo-entry 4s ease-in;
   /* color: #000; */
@@ -291,9 +292,7 @@ Hexagon Mesh
   transform: perspective(600px) rotateX(60deg) scale(1.4);
   z-index: -3; }
 
-/* =========================================
-Animation Keyframes
-========================================= */
+/* Animation Keyframes */
 @keyframes logo-entry {
   0% {
     opacity: 0; }
