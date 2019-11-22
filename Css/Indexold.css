@@ -1,0 +1,88 @@
+html, body {
+    margin: 0;
+    padding: 0;
+ 	/* background-color: black; */
+ }
+
+ #Body {
+    /* width: 50%; */
+    /* background-color:black; */
+    color: white;
+    /*float:left; */
+    /* border:solid; */
+    /* border-color: darkolivegreen; */
+}
+
+/*#Code {
+    width: 50%;
+	 background-color: black;
+    /*float:right;
+    font-size: 80px;
+    color: greenyellow;
+    text-align: left;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}*/
+
+/* BEGIN : H1-H2-H3-H4-H5-H6 */
+
+
+/* h2{
+  font-size: 35px;
+  color: #fff;
+  text-align: left;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+h3{
+  font-size: 30px;
+  color: #fff;
+  text-align: left;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+h4{
+  font-size: 25px;
+  color: #fff;
+  text-align: left;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+h5{
+  font-size: 20px;
+  color: #fff;
+  text-align: left;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+h6{
+  font-size: 15px;
+  color: #fff;
+  text-align: left;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+/* END : H1-H2-H3-H4-H5-H6 */ 
+
+/* BEGIN : Glowing texte */
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #8af06b, 0 0 40px #8af06b, 0 0 50px #8af06b, 0 0 60px #8af06b, 0 0 70px #8af06b;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #087a12, 0 0 50px #087a12, 0 0 60px #087a12, 0 0 70px #087a12, 0 0 80px #087a12;
+  }
+}
+
+/* END : Glowing texte */

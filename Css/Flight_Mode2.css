@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <Title>FLIGHT MODE</Title>
+    <link rel="Shortcut Icon" type="image/gif" href="PICTURES/favicon.gif">
+    <meta charset="utf-8">
+
+    <!-- <script type="text/javascript" src="jquery.js"></script> -->
+    <script type="text/javascript" src="./Js/Video_Screen.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3.0, user-scalable=yes" />
+
+    <link href="./Css/Time_Zone.css" rel="stylesheet">
+    <link href="./Css/Spinner.css" rel="stylesheet">
+    <link href="./Css/Video_Screen.css" rel="stylesheet">
+
+</head>
+
+<body onload="init();">
+    <div id="videoback"><?php include 'Video_Screen.php' ?></div>
+    <div class="Close_Flight_Mode_Button"><A href="Close_Flight_Mode.php">Logout Flight Mode</A></div>
+    <div><?php include 'Helmet_Iron_Man.php'; ?><?php include 'Add_On/Time_Zone/Time_Zone.php'; ?><?php include 'Arc.php'; ?><?php include 'Spinner.php'; ?></div>
+    <!-- <div><?php /* include 'Add_On/Progress_Bar/Progress_Bar.php'; */ ?></div>  -->
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#menu-accordeon>li').click(function() {
+                $(this).toggleClass('active');
+                $(this).siblings().removeClass('active');
+            })
+        });
+    </script>
+    <!--<div id="Code"><? php/* include 'Code.php'; */ ?></div> -->
+</body>
+
+</html>
